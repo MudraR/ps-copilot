@@ -14,7 +14,8 @@ The `SetOAuth` function in the PowerShell script will hit the https://github.com
 As you can see in the image below, just run the script `./copilot_cli.ps1` and start asking questions! 
 
 The history will be saved in the `history.md` file in pretty markdown format!
-![demo](.\demo_output\demo.png)
+
+![demo](https://github.com/MudraR/ps-copilot/blob/main/demo_output/demo.png)
 
 ### Step 3: Manipulate the model
 You can play around with the body and update params like `max_tokens`, `temperature`, `messages`, etc. The benefit of having GitHub copilot in a script is that you can learn as you go and change as much as you want to test. Since copilot is a joint collab between OpenAI and Microsoft, Copilot isn't just locked down to the codex model! You can switch to the `gpt-4-0613` model, and potentially many more. I've sourced a few models that may be available to switch to:
